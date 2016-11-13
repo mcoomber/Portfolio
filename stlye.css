@@ -1,0 +1,86 @@
+body {
+	background-image: linear-gradient(to bottom, rgb(253, 155, 182), rgb(237, 140, 16));
+}
+
+h4 {
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-size: 5vw;
+	color: rgba(255, 255, 255, 1);
+}
+
+p {
+	font-family: Arial Black, Arial Bold, Gadget, sans-serif;
+	font-size: 3vw;
+	color: rgba(255, 255, 255, 1);
+	text-align: left;
+	margin-top: 3vw;
+}
+
+.doormat {}
+
+.covershot {
+	width: 100%;
+}
+
+#nav-anchor {
+	position: relative;
+	top: 0vw;
+}
+
+#navigator {
+	width: 100%;
+	margin-top: 0;
+	z-index: 999;
+}
+
+#navigator.stick {
+	position: fixed;
+	top: 0;
+	width: calc(100% - 30px);
+	margin-top: 0px;
+}
+
+#nav-phantom {
+	width: 100%;
+	visibility: hidden;
+}
+
+.nvg {
+	width: 100%;
+}
+
+.content {
+	margin-top: 3vw;
+	position: relative;
+	top: 0vw;
+}
+
+.pushed {
+	position: relative;
+	top: 6.09173077vw;
+}
+
+.contenthead {
+	text-align: center;
+	margin-top: 6vw;
+}
+
+.fb {
+	color: rgba(59, 89, 152, 1);
+}
+
+.fb:hover {
+	color: rgba(139, 157, 195, 1);
+}
+
+.mum {
+	color: rgba(0, 171, 107, 1);
+}
+
+.mum:hover {
+	color: rgba(2, 184, 117, 1);
+}
+
+.foot {
+	height: 1500px
+}
